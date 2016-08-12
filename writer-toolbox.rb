@@ -5,9 +5,9 @@
 class WriterToolbox < Formula
   desc "Writer toolbox "
   homepage "https://github.com/Infomaker/writer-toolbox"
-  url "https://github.com/Infomaker/writer-toolbox/archive/1.4.3.tar.gz"
-  version "1.4.3"
-  sha256 "649bc7f13f4ec1540317ee0400e0c7e8dc37d255f30a8a8c20809e4eab278c4a"
+  url "https://github.com/Infomaker/writer-toolbox/archive/1.4.4.tar.gz"
+  version "1.4.4"
+  sha256 "fd74708fee78c86bd8a3ff275b239fc1f99090e2a08061e6746d59e39ca527f0"
 
   head "https://github.com/Infomaker/writer-toolbox.git"
 
