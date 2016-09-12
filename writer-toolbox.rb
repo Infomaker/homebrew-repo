@@ -5,8 +5,8 @@
 class WriterToolbox < Formula
   desc "Writer toolbox "
   homepage "https://github.com/Infomaker/writer-toolbox"
-  url "https://github.com/Infomaker/writer-toolbox/archive/1.6.tar.gz"
-  sha256 "2c5205b419db51529ffb0661d80a63c32834850584b9d834e64d886b0b488730"
+  url "https://github.com/Infomaker/writer-toolbox/archive/1.6.1.tar.gz"
+  sha256 "865a3d926d60068298cde73c2a695d4e76ed341b9f1726448b881301955bdd01"
 
   depends_on "go" => :build
 
