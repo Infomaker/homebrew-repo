@@ -5,11 +5,10 @@
 class WriterToolbox < Formula
   desc "Writer toolbox "
   homepage "https://github.com/Infomaker/writer-toolbox"
-  url "https://github.com/Infomaker/writer-toolbox/archive/1.5.3.tar.gz"
-  sha256 "a3755c462a76e3b42ad650e3e7703dab5a7ac0e3dc2648c17ea0c4c1b113d321"
+  url "https://github.com/Infomaker/writer-toolbox/archive/1.6.tar.gz"
+  sha256 "2c5205b419db51529ffb0661d80a63c32834850584b9d834e64d886b0b488730"
 
   depends_on "go" => :build
-  depends_on :hg => :build 
 
   def install
 	  ENV["GOPATH"] = buildpath
