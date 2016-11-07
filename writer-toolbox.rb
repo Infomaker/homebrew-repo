@@ -15,7 +15,7 @@ class WriterToolbox < Formula
 
       system "go", "get", "github.com/aws/aws-sdk-go"
 
- 	  system "go", "build", "-o", "writer-tool" -ldflags "-X main.appVersion=1.10.3"
+ 	  system "go", "build", "-o", "writer-tool", "-ldflags", "-X main.appVersion=1.10.3"
 
 	  bin.install "writer-tool"
 	  bash_completion.install "bash-completion/writer-tool"
