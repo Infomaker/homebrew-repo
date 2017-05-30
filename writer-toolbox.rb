@@ -5,8 +5,8 @@
 class WriterToolbox < Formula
   desc "Writer toolbox "
   homepage "https://github.com/Infomaker/writer-toolbox"
-  url "https://github.com/Infomaker/writer-toolbox/archive/2.2.1.tar.gz"
-  sha256 "a24b5ef9cda7da0649935399e8d953b576cd5cf01d488c3b7968315f66af09b1"
+  url "https://github.com/Infomaker/writer-toolbox/archive/2.2.1.1.tar.gz"
+  sha256 "47acdeea513cda7fffa7929c2f691daaa108f11775addf9b99a65fbe6b46aa0b"
 
   depends_on "go" => :build
 
@@ -15,7 +15,7 @@ class WriterToolbox < Formula
 
       system "go", "get", "github.com/aws/aws-sdk-go"
 
- 	  system "go", "build", "-o", "writer-tool", "-ldflags", "-X main.appVersion=2.2.1"
+ 	  system "go", "build", "-o", "writer-tool", "-ldflags", "-X main.appVersion=2.2.1.1"
 
 	  bin.install "writer-tool"
 	  bash_completion.install "bash-completion/writer-tool"
