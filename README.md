@@ -10,7 +10,7 @@ Make sure that the release has been tagged in git@github.com:Infomaker/writer-to
 
 ## Edit the file
 
-Start by calculating the SHA-256 sum of the new release. Replace `2.11` with the new version:
+Start by calculating the SHA-256 sum of the new release. Replace `2.11` (i.e. the latest tag in git) with the new version:
 
     $ curl -sL https://github.com/Infomaker/writer-toolbox/archive/2.11.tar.gz | shasum -a 256
     faf5e382f544a1add6dd26aef13cc60f7e2799da5ac28e2bbafdc501a45f66fe  -
