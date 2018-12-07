@@ -12,9 +12,9 @@ Make sure that the release has been tagged in git@github.com:Infomaker/writer-to
 
 Start by calculating the SHA-256 sum of the new release. Replace `2.11` (i.e. the latest tag in git) with the new version:
 
-    $ curl -sL https://github.com/Infomaker/writer-toolbox/archive/2.11.tar.gz | shasum -a 256
-    faf5e382f544a1add6dd26aef13cc60f7e2799da5ac28e2bbafdc501a45f66fe  -
-    
+    $ curl -sL https://github.com/Infomaker/writer-toolbox/archive/2.11.3.tar.gz | shasum -a 256
+    aa6ae625471ec4f5bd66c51c001b062d4762db0a9e35caa07517a7ecb190ef43  -
+
 Next, edit the `writer-toolbox.rb` file.
 
 In `url`, replace the version info.
